@@ -5,7 +5,7 @@ import React from "react";
 const Post = ({ category, title, img }) => {
   return (
     <Link className="" href="#">
-      <div className='rounded-lg cursor-pointer group overflow-hidden flex flex-col items-center space-y-5  justify-center'>
+      <div className='rounded-lg shadow-lg cursor-pointer group overflow-hidden flex flex-col items-center space-y-10  justify-center'>
         <img src={img} className='group-hover:scale-105  transition-all duration-300' />
         <h1>{category}</h1>
         <h1 className='text-2xl text-center border-b-2 p-2'>{title}</h1>

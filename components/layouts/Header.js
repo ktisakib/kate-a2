@@ -38,13 +38,13 @@ const Header = () => {
       ) : (
         <nav className='shadow-md flex px-5 py-2 items-center justify-between h-[70px] transition-all '>
           {menu ? (
-            <XIcon className='h-5 lg:hidden' onClick={closeMenu} />
+            <XIcon className='h-5 lg:hidden cursor-pointer' onClick={closeMenu} />
           ) : (
-            <MenuIcon onClick={showMenu} className='h-5 lg:hidden' />
+            <MenuIcon onClick={showMenu} className='h-5 lg:hidden cursor-pointer' />
           )}
           <div className='flex space-x-9 items-center'>
             <Link href='/'>
-              <a>
+              <a className="cursor-pointer">
                 <Image src='/images/Kate-logo.png' height={50} width={176} />
               </a>
             </Link>
@@ -55,7 +55,7 @@ const Header = () => {
               <li>Dowload This Template</li>
             </ul>
           </div>
-          <SearchIcon className='h-5' onClick={searchOn} />
+          <SearchIcon className='h-5 cursor-pointer' onClick={searchOn} />
         </nav>
       )}
     </>

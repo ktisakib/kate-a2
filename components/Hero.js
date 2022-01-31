@@ -13,7 +13,7 @@ const Hero = () => {
           multi-author blog / magazine.
         </h6>
         <Link href='/'>
-          <button className='px-8 rounded-md py-2 text-white bg-cyan-300 hover:bg-gray-700'>
+          <button className='px-8 rounded-md py-2 cursor-pointer text-white bg-cyan-300 hover:bg-gray-700'>
             Read more
           </button>
         </Link>
