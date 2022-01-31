@@ -12,7 +12,7 @@ const Hero = () => {
           Minimal and modern theme for Blogspot. Use it for personal blog or
           multi-author blog / magazine.
         </h6>
-        <Link href='#'>
+        <Link href='/'>
           <button className='px-8 rounded-md py-2 text-white bg-cyan-300 hover:bg-gray-700'>
             Read more
           </button>
